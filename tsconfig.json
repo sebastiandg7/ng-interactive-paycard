@@ -14,7 +14,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng-interactive-paycard": [
+        "dist/ng-interactive-paycard/ng-interactive-paycard",
+        "dist/ng-interactive-paycard"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
